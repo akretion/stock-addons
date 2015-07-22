@@ -1,0 +1,200 @@
+# Translation of OpenERP Server.
+# This file contains the translation of the following modules:
+#	* stock_reassign
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenERP Server 7.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-07-22 14:56+0000\n"
+"PO-Revision-Date: 2015-07-22 14:56+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: stock_reassign
+#: model:ir.model,name:stock_reassign.model_move_line_wizard
+msgid "Assigned Moves"
+msgstr "Mouvements réservés"
+
+#. module: stock_reassign
+#: model:ir.model.fields,field_description:stock_reassign.field_move_line_wizard_assignment_wizard_id
+#: field:move.line.wizard,assignment_wizard_id:0
+msgid "Assignment Wizard"
+msgstr "Assistant de réservation"
+
+#. module: stock_reassign
+#: view:change.assignment.wizard:0
+msgid "Cancel"
+msgstr "Annuler"
+
+#. module: stock_reassign
+#: selection:move.line.wizard,picking_state:0
+msgid "Cancelled"
+msgstr "Annulé"
+
+#. module: stock_reassign
+#: model:ir.model.fields,field_description:stock_reassign.field_move_line_wizard_carrier_name
+#: field:move.line.wizard,carrier_name:0
+msgid "Carrier Name"
+msgstr "Nom transporteur"
+
+#. module: stock_reassign
+#: model:ir.model,name:stock_reassign.model_change_assignment_wizard
+msgid "Change Assignment Wizard"
+msgstr "Assistant changement de réservation"
+
+#. module: stock_reassign
+#: model:ir.model.fields,field_description:stock_reassign.field_move_line_wizard_date_planned
+#: field:move.line.wizard,date_planned:0
+msgid "Date Planned"
+msgstr "Date prévue"
+
+#. module: stock_reassign
+#: selection:move.line.wizard,picking_state:0
+msgid "Done"
+msgstr "Terminé"
+
+#. module: stock_reassign
+#: field:change.assignment.wizard,move_line_ids:0
+#: model:ir.model.fields,field_description:stock_reassign.field_change_assignment_wizard_move_line_ids
+msgid "Move List"
+msgstr "Liste des mouvements"
+
+#. module: stock_reassign
+#: view:change.assignment.wizard:0
+msgid "Move Reassignment"
+msgstr "Réaffectation du mouvement"
+
+#. module: stock_reassign
+#: field:change.assignment.wizard,move_id:0
+#: model:ir.model.fields,field_description:stock_reassign.field_change_assignment_wizard_move_id
+msgid "Move To Assign"
+msgstr "Mouvement à réserver"
+
+#. module: stock_reassign
+#: view:change.assignment.wizard:0
+msgid "Move un-assigned"
+msgstr "Mouvement à déréserver"
+
+#. module: stock_reassign
+#: selection:move.line.wizard,picking_state:0
+msgid "New"
+msgstr "Nouveau"
+
+#. module: stock_reassign
+#: model:ir.model.fields,field_description:stock_reassign.field_move_line_wizard_confirm_date
+#: field:move.line.wizard,confirm_date:0
+msgid "Order Date"
+msgstr "Date de commande"
+
+#. module: stock_reassign
+#: model:ir.model.fields,field_description:stock_reassign.field_move_line_wizard_origin
+#: field:move.line.wizard,origin:0
+msgid "Origin"
+msgstr "Origine"
+
+#. module: stock_reassign
+#: model:ir.model.fields,field_description:stock_reassign.field_move_line_wizard_partner_id
+#: field:move.line.wizard,partner_id:0
+msgid "Partner"
+msgstr "Client"
+
+#. module: stock_reassign
+#: model:ir.model.fields,field_description:stock_reassign.field_move_line_wizard_picking_id
+#: field:move.line.wizard,picking_id:0
+msgid "Picking"
+msgstr "Bon de livraison"
+
+#. module: stock_reassign
+#: model:ir.model.fields,field_description:stock_reassign.field_move_line_wizard_picking_state
+#: field:move.line.wizard,picking_state:0
+msgid "Picking State"
+msgstr "Etat du bon de livraison"
+
+#. module: stock_reassign
+#: field:change.assignment.wizard,product_id:0
+#: model:ir.model.fields,field_description:stock_reassign.field_change_assignment_wizard_product_id
+#: model:ir.model.fields,field_description:stock_reassign.field_move_line_wizard_product_id
+#: field:move.line.wizard,product_id:0
+msgid "Product"
+msgstr "Produit"
+
+#. module: stock_reassign
+#: model:ir.model.fields,field_description:stock_reassign.field_move_line_wizard_product_qty
+#: field:move.line.wizard,product_qty:0
+msgid "Quantity"
+msgstr "Quantité"
+
+#. module: stock_reassign
+#: field:change.assignment.wizard,needed_qty:0
+#: model:ir.model.fields,field_description:stock_reassign.field_change_assignment_wizard_needed_qty
+msgid "Quantity To Re-assign"
+msgstr "Quantité à réaffecter"
+
+#. module: stock_reassign
+#: view:stock.move:0
+msgid "Re-assign a reservation"
+msgstr "Réaffecter une réservation"
+
+#. module: stock_reassign
+#: view:change.assignment.wizard:0
+msgid "Re-assign the Reservation"
+msgstr "Réaffecter la réservation"
+
+#. module: stock_reassign
+#: selection:move.line.wizard,picking_state:0
+msgid "Ready to Process"
+msgstr "Prêt"
+
+#. module: stock_reassign
+#: model:ir.model.fields,field_description:stock_reassign.field_move_line_wizard_to_reassign
+#: field:move.line.wizard,to_reassign:0
+msgid "Selected"
+msgstr "Selectionné"
+
+#. module: stock_reassign
+#: model:ir.model.fields,field_description:stock_reassign.field_move_line_wizard_sequence
+#: field:move.line.wizard,sequence:0
+msgid "Sequence"
+msgstr "Séquence"
+
+#. module: stock_reassign
+#: help:change.assignment.wizard,needed_qty:0
+msgid "Si la quantité est 0, il y a assez de stock, pas besoin de sélectionner de ligne à ré-affecter."
+msgstr "Si la quantité est 0, il y a assez de stock, pas besoin de sélectionner de ligne à ré-affecter."
+
+#. module: stock_reassign
+#: model:ir.model,name:stock_reassign.model_stock_move
+msgid "Stock Move"
+msgstr "Mouvement de stock"
+
+#. module: stock_reassign
+#: view:change.assignment.wizard:0
+msgid "Stock Moves"
+msgstr "Mouvements de stock"
+
+#. module: stock_reassign
+#: model:ir.model.fields,field_description:stock_reassign.field_move_line_wizard_move_id
+#: field:move.line.wizard,move_id:0
+msgid "Targeted Move"
+msgstr "Mouvement ciblé"
+
+#. module: stock_reassign
+#: selection:move.line.wizard,picking_state:0
+msgid "Waiting Another Operation"
+msgstr "Attente d'une autre opération"
+
+#. module: stock_reassign
+#: selection:move.line.wizard,picking_state:0
+msgid "Waiting Availability"
+msgstr "Attente de disponibilité"
+
+#. module: stock_reassign
+#: view:change.assignment.wizard:0
+msgid "or"
+msgstr "ou"
+
